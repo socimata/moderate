@@ -1,0 +1,21 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.*_cache
+
+.venv
+
+.vscode
+.fleet
+.idea
+
+.DS_Store
+desktop.ini
+
+.env
+
+# Private files
+/keywords/data.json
