@@ -19,3 +19,6 @@ desktop.ini
 
 # Private files
 /keywords/data.json
+/questions/generations.json
+/questions/refusals.json
+/questions/non_refusals.json
