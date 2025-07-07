@@ -3,5 +3,8 @@
     ":semanticCommitTypeAll(chore)",
     "config:recommended"
   ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
