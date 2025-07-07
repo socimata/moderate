@@ -18,12 +18,14 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-          uv pip install basedpyright ruff
       - name: Check code quality
         run: |
           ruff format --check --diff
           ruff check --diff
-          basedpyright
+      - uses: oven-sh/setup-bun@v2
+      - name: Check typing
+        run: |
+          bunx pyright
 
   typos:
     runs-on: ubuntu-latest
