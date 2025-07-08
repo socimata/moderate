@@ -27,26 +27,26 @@ wheels = [
 
 [[package]]
 name = "hmr"
-version = "0.6.4"
+version = "0.6.4.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "watchfiles", marker = "sys_platform != 'emscripten'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/54/e1/9971a92cf920a9bae3914ded05ac39a930d87d8ccca408a75797ab316c8e/hmr-0.6.4.tar.gz", hash = "sha256:7b9747e74b51e65d39ad3abf3538b19aecd21250672f762cff01e16954c0db4e", size = 12122, upload-time = "2025-07-06T18:35:27.275Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ae/29/bb01af71c33c61c030f1b1269c8cec73265458b47c1d35efb0d1e09ad5e3/hmr-0.6.4.3.tar.gz", hash = "sha256:558cbb3129ee273004228890a5c672b486982630349200e5ff794b41d5cb171d", size = 12337, upload-time = "2025-07-07T20:46:02.98Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/28/f1/7ed4b9bf9e8c0efff86e5853dcc87ed974bb08c78535a18d00ea3eb17056/hmr-0.6.4-py3-none-any.whl", hash = "sha256:40760c1941899aa6597372ee454dfc49d22421a9d97838c7a4622ac622125ba4", size = 15742, upload-time = "2025-07-06T18:35:26.043Z" },
+    { url = "https://files.pythonhosted.org/packages/46/e2/550d220bbb9c3f1c86909ecd93068b682ce3466ef33fc0256de7ecd01353/hmr-0.6.4.3-py3-none-any.whl", hash = "sha256:41ea0b0e776023dce28e46ddab26c38970638782ba086b73cdd356fca97ba3c1", size = 15982, upload-time = "2025-07-07T20:46:01.837Z" },
 ]
 
 [[package]]
 name = "hmr-daemon"
-version = "0.1"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hmr" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0a/51/86fddcd69a4fda691edcac59df224dd90cb4906e2cdd8a3e01231d344682/hmr_daemon-0.1.tar.gz", hash = "sha256:1ee7ac338dc093ca19926e664029ee1b251f809a4e8f2944e87d47076ba83434", size = 1077, upload-time = "2025-07-02T18:14:52.236Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/23/5c4b2b858f4ec51ee10abfc098470cb3092305425babec83614e0e2b6de0/hmr_daemon-0.1.1.tar.gz", hash = "sha256:fa99864ba813a10db55f1725cbb2f3400e04eefb88659525e5f3125b4cc292d9", size = 1140, upload-time = "2025-07-08T12:49:15.989Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e8/68/78362838acb33c5dcc5da321a514707204323d96beb2c36fbfb90ea45811/hmr_daemon-0.1-py2.py3-none-any.whl", hash = "sha256:43755d9b8db44342bd2148f5e1f16afd53565c7a12c833f02e4df4e233097546", size = 2480, upload-time = "2025-07-02T18:14:51.275Z" },
+    { url = "https://files.pythonhosted.org/packages/85/56/7161b2394d0f40fb16b693574ca002f40531cd37b53e962a89d1bfc92e51/hmr_daemon-0.1.1-py2.py3-none-any.whl", hash = "sha256:9f06f447e96457d9f25048462b363eecc8f18adf3de1412b92d9612f4c5bf3bf", size = 2547, upload-time = "2025-07-08T12:49:15.255Z" },
 ]
 
 [[package]]
