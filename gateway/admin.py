@@ -23,7 +23,7 @@ def add_endpoint(name: str, endpoint: Endpoint) -> EndpointResponse:
     if name in db:
         raise HTTPException(400, "Endpoint already exists")
     db[name] = endpoint
-    return {"name": name, **endpoint}  # type: ignore
+    return {"name": name, **endpoint.model_dump()}  # type: ignore
 
 
 @admin_app.delete("/endpoints/{name}", summary="删除端点", description="根据名称删除指定端点")
