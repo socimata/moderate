@@ -282,7 +282,7 @@ requires-dist = [
     { name = "pydantic", specifier = "~=2.11.7" },
     { name = "ruff", specifier = "~=0.12.1" },
     { name = "typer-slim", specifier = "~=0.16.0" },
-    { name = "uvicorn-hmr", specifier = "~=0.0.8.5" },
+    { name = "uvicorn-hmr", specifier = "~=0.0.9.0" },
 ]
 
 [[package]]
@@ -516,7 +516,7 @@ wheels = [
 
 [[package]]
 name = "uvicorn-hmr"
-version = "0.0.8.5"
+version = "0.0.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dowhen" },
@@ -524,9 +524,9 @@ dependencies = [
     { name = "typer-slim" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/73/cd/189a979d697d560ed5df82e54b8e736338874f0a38b3461efdf30e8981bb/uvicorn_hmr-0.0.8.5.tar.gz", hash = "sha256:a0ed68dc8628e1a7914dc9ed17ee8bfb33bf8584618de1e37b601f90d3abf491", size = 5204, upload-time = "2025-07-14T23:58:48.621Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/38/28/aa439930b59b099938af984f7721ade8ce52e64f1fdc3e9374305af07d66/uvicorn_hmr-0.0.9.tar.gz", hash = "sha256:63a79afc6b8a996d57fc7a4b0d4f92af6ec977645bdaf258a880ea2f33168bae", size = 5478, upload-time = "2025-07-15T16:48:45.656Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/5a/4819ccf3090d3f437025f97416e851c312d6c0e341a0d97f931ce3100acb/uvicorn_hmr-0.0.8.5-py3-none-any.whl", hash = "sha256:e7f58c6e67f935d9a01c076376d9c988c3a67bd3de18dbb6d4046f254a16958f", size = 5984, upload-time = "2025-07-14T23:58:47.559Z" },
+    { url = "https://files.pythonhosted.org/packages/88/21/ae19b0851da0df0385d26fe1aec9c79ee72bed92642cadf760b501c001d5/uvicorn_hmr-0.0.9-py3-none-any.whl", hash = "sha256:3c98aee4df9b5a1843b54e0a00a45d1d22a047c4688308040b2746b8bb55b078", size = 6250, upload-time = "2025-07-15T16:48:44.712Z" },
 ]
 
 [[package]]
