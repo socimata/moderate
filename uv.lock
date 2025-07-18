@@ -132,14 +132,14 @@ wheels = [
 
 [[package]]
 name = "hmr-daemon"
-version = "0.2.2"
+version = "0.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hmr" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/40/8b/58939b3d5bd0193536ceee2d8333d09285aa45e52e7936be97c820d5b02d/hmr_daemon-0.2.2.tar.gz", hash = "sha256:3c0dcbd0000819efbe4f0dbbca3103601fc2aa2f03ee8889c40f9eedf4220f32", size = 1158, upload-time = "2025-07-11T23:19:41.963Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/c1/649c234242e999c1f6f5cdd570e4e56760d64cf6ede7849e6e3014ca4658/hmr_daemon-0.3.tar.gz", hash = "sha256:222898e9fdf1e0f42fd6695e7d061bb2e29c386ebc597148ed9441558b240a65", size = 1181, upload-time = "2025-07-18T06:23:44.557Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c9/6b/850980274a50aba702716464962889ef5b300a4381c270e63db88865380c/hmr_daemon-0.2.2-py2.py3-none-any.whl", hash = "sha256:5aa04a33202fd1d619f4af30c2276ae4f5c10fa063433d539a2b0d5e25e79511", size = 2013, upload-time = "2025-07-11T23:19:41.279Z" },
+    { url = "https://files.pythonhosted.org/packages/86/c2/7f1d7532fd7a04061a4aeb6ab986cd2f19f02cc631605c4e39f7a5be8a21/hmr_daemon-0.3-py2.py3-none-any.whl", hash = "sha256:b39b88ecbedd81ee7cab9162459fc3c5947476ad37e340459a27ce5c7e51fdb7", size = 2016, upload-time = "2025-07-18T06:23:43.824Z" },
 ]
 
 [[package]]
@@ -274,7 +274,7 @@ requires-dist = [
     { name = "diskcache2", specifier = "~=1.0.0" },
     { name = "fastapi", specifier = "~=0.116.1" },
     { name = "hmr", specifier = "~=0.6.3" },
-    { name = "hmr-daemon", specifier = "~=0.2.0" },
+    { name = "hmr-daemon", specifier = "~=0.3.0" },
     { name = "httpx", extras = ["http2"], specifier = "~=0.28.1" },
     { name = "openai", specifier = "~=1.97.0" },
     { name = "orjson", specifier = "~=3.11.0" },
