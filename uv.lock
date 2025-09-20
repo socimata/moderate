@@ -120,26 +120,26 @@ wheels = [
 
 [[package]]
 name = "hmr"
-version = "0.6.6.3"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "watchfiles", marker = "sys_platform != 'emscripten'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/22/69/80ad551ed565d8f033a9749cfa9db3301160c03ad94e0689c0a9d306bbdc/hmr-0.6.6.3.tar.gz", hash = "sha256:b91027d4b0ac884eb4fdf78e6457d57b9a3d39cac68a01229272624e9df41d88", size = 14229, upload-time = "2025-09-12T06:17:35.084Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4c/a8/7253104b4b4a54e9f30a748db58d52b00debea3ef14916680307489a9989/hmr-0.7.0.tar.gz", hash = "sha256:43dd6ac02cac4fa2276e2b5dd275473708bf4b92f90a7e064c47ee9ee6ef16c1", size = 20036, upload-time = "2025-09-19T22:05:58.537Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bc/73/9cfa408e46f1ccbfb66141c5f6d7a7ad14aa25a2d5f8f3e2b2ddf7c64dee/hmr-0.6.6.3-py3-none-any.whl", hash = "sha256:b657f130dccf924b9a377cd3979cea684f5e086d02d9194fc76a877de6b2b82e", size = 18061, upload-time = "2025-09-12T06:17:33.908Z" },
+    { url = "https://files.pythonhosted.org/packages/0f/77/e22d9befcf1dbe3d419c30344c45ef879d4309a260e7e8ed7b6d1a105d6a/hmr-0.7.0-py3-none-any.whl", hash = "sha256:fd12e4a00641a00b635d73b6921c600fa4b6a8934562067c0724e215f7017d34", size = 25510, upload-time = "2025-09-19T22:05:57.608Z" },
 ]
 
 [[package]]
 name = "hmr-daemon"
-version = "0.4"
+version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hmr" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5f/78/e939e5da83cad84353c8dcd248c46498e013312539f2ec53e39d48edc303/hmr_daemon-0.4.tar.gz", hash = "sha256:63cb0a99de978cdde75da7098ae649cac12f031a71fe13819c1d2e7ee4e65044", size = 2707, upload-time = "2025-08-20T20:48:50.247Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d5/98/67f10889b80d5de112af113710bc060450fc7e2e6ff220b8b467eeebef4c/hmr_daemon-0.4.1.tar.gz", hash = "sha256:daae64026e6f663fae80523de85ec6a3f6f545939d70231d345a8a21eda3ed6f", size = 2708, upload-time = "2025-09-20T05:17:28.622Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4f/24/4efc1e72779d211631d3c650be4f058a7d462b1b8b8ce8f06417b666940f/hmr_daemon-0.4-py2.py3-none-any.whl", hash = "sha256:b89bbbe1694a50078a621e06a32f58b3c43c2fa7f4d04100f4c952e5880b3967", size = 4952, upload-time = "2025-08-20T20:48:49.203Z" },
+    { url = "https://files.pythonhosted.org/packages/6b/7d/d3ec3491d85768d19fd751460014db5327bb6a89d917028d04f2341cac14/hmr_daemon-0.4.1-py2.py3-none-any.whl", hash = "sha256:99fb2b294884d1eab0be993f70cdc6e6138e5b194a80491255029bc9edc7d13a", size = 4969, upload-time = "2025-09-20T05:17:27.752Z" },
 ]
 
 [[package]]
@@ -273,7 +273,7 @@ dependencies = [
 requires-dist = [
     { name = "diskcache2", specifier = "~=1.0.0" },
     { name = "fastapi", specifier = "~=0.116.1" },
-    { name = "hmr", specifier = "~=0.6.3" },
+    { name = "hmr", specifier = "~=0.7.0" },
     { name = "hmr-daemon", specifier = "~=0.4.0" },
     { name = "httpx", extras = ["http2"], specifier = "~=0.28.1" },
     { name = "openai", specifier = "~=1.108.0" },
@@ -528,7 +528,7 @@ wheels = [
 
 [[package]]
 name = "uvicorn-hmr"
-version = "0.0.9.2"
+version = "0.0.9.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dowhen" },
@@ -536,9 +536,9 @@ dependencies = [
     { name = "typer-slim" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/32/b12776e594b449f504eabf89a719db795dee20d7ccc6baa1cdc7a492d2ef/uvicorn_hmr-0.0.9.2.tar.gz", hash = "sha256:3864cbdac89f3cb975f63ef070b57ff4fac83502c01caba4e94657a6c0620bd4", size = 5635, upload-time = "2025-08-15T22:47:23.717Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/3e/4e149128d7fa3802307185142014f72b6da8fd98002ab088ed427741e95d/uvicorn_hmr-0.0.9.3.tar.gz", hash = "sha256:bb435fdc822bee71c23e6151a5b967963916b6ac5c9d550e9ddc6f8a3306fece", size = 5628, upload-time = "2025-09-20T05:31:57.108Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bd/35/2afa0f4a9a9e9b10d278956e89b078b469780729341d0650488095b0d1bc/uvicorn_hmr-0.0.9.2-py3-none-any.whl", hash = "sha256:8f4643d2b62b3f67a9ba1bdb3c357783a05bc68d02354b6f1eb5dbbe02480520", size = 6417, upload-time = "2025-08-15T22:47:22.995Z" },
+    { url = "https://files.pythonhosted.org/packages/70/15/4ce8286febbecd104c993571c32e023eb54499fd14eab5e8ec7b35ae258e/uvicorn_hmr-0.0.9.3-py3-none-any.whl", hash = "sha256:27208daa933327779cdb338d65afaf062f3c0caddc61f19f3afffea01d4df042", size = 6416, upload-time = "2025-09-20T05:31:56.047Z" },
 ]
 
 [[package]]
