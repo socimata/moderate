@@ -74,15 +74,6 @@ wheels = [
 ]
 
 [[package]]
-name = "dowhen"
-version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/38/19/61042b0a86170158940dd9aba60ce485922a8101d762b6b50b7cd65e91d0/dowhen-0.1.0.tar.gz", hash = "sha256:418804e52e715fd61f362c285eb0e8023819569fae85b592025d707246a1aea9", size = 21441, upload-time = "2025-06-26T23:13:31.089Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/5a/faf4ca6fe29f3cfcc7c730245e47112d236e8f3bd3b23666975c3ddc287f/dowhen-0.1.0-py3-none-any.whl", hash = "sha256:723a39b838ac15a2d6d3a40bfcc21b672a6f760354a00a373c53c6b23de4cfb5", size = 19092, upload-time = "2025-06-26T23:13:29.73Z" },
-]
-
-[[package]]
 name = "fastapi"
 version = "0.117.1"
 source = { registry = "https://pypi.org/simple" }
@@ -282,7 +273,7 @@ requires-dist = [
     { name = "pydantic", specifier = "~=2.11.7" },
     { name = "ruff", specifier = "~=0.13.0" },
     { name = "typer-slim", specifier = "~=0.19.1" },
-    { name = "uvicorn-hmr", specifier = "~=0.0.9.0" },
+    { name = "uvicorn-hmr", specifier = "~=0.1.0.0" },
 ]
 
 [[package]]
@@ -528,17 +519,16 @@ wheels = [
 
 [[package]]
 name = "uvicorn-hmr"
-version = "0.0.9.3"
+version = "0.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "dowhen" },
     { name = "hmr" },
     { name = "typer-slim" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f6/3e/4e149128d7fa3802307185142014f72b6da8fd98002ab088ed427741e95d/uvicorn_hmr-0.0.9.3.tar.gz", hash = "sha256:bb435fdc822bee71c23e6151a5b967963916b6ac5c9d550e9ddc6f8a3306fece", size = 5628, upload-time = "2025-09-20T05:31:57.108Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/9c/cf99531efbdb15984e20de2d01280fa57b00639f8af6c4ae7ba9529072fb/uvicorn_hmr-0.1.0.tar.gz", hash = "sha256:e6e58070e79ff610bd82dd13b4a745c619ef02c46a0e819a84292643be9118dc", size = 5375, upload-time = "2025-09-22T20:22:20.477Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/15/4ce8286febbecd104c993571c32e023eb54499fd14eab5e8ec7b35ae258e/uvicorn_hmr-0.0.9.3-py3-none-any.whl", hash = "sha256:27208daa933327779cdb338d65afaf062f3c0caddc61f19f3afffea01d4df042", size = 6416, upload-time = "2025-09-20T05:31:56.047Z" },
+    { url = "https://files.pythonhosted.org/packages/23/27/d81497356a8c6b2f76e069c9474c59e546271984c9b0d5ab771622b19d21/uvicorn_hmr-0.1.0-py3-none-any.whl", hash = "sha256:9bf52cb83812a1eee6e6fa51940062362ccab3990705fb9e0853e476b263a5c0", size = 6122, upload-time = "2025-09-22T20:22:19.394Z" },
 ]
 
 [[package]]
