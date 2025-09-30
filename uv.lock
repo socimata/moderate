@@ -519,16 +519,16 @@ wheels = [
 
 [[package]]
 name = "uvicorn-hmr"
-version = "0.1.0.1"
+version = "0.1.0.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hmr" },
     { name = "typer-slim" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6c/de/23345fbe0842a2aca6e514691c441bd62284c09c8ab0f915d95ef5caa7ea/uvicorn_hmr-0.1.0.1.tar.gz", hash = "sha256:6bd254c1e12f4193070273f7f6c3183eb40b28f682b2d4d188f9170b0c292c34", size = 5381, upload-time = "2025-09-23T15:54:17.491Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/40/47/e6e6e8b87b8f02f49f2edab3dc8a479d0063226b335dbed5717dcb5aab1d/uvicorn_hmr-0.1.0.2.tar.gz", hash = "sha256:2f1e4cade9ab36d98a9f3db30d314cf75eaaa106a2b44a14ffb545e377217867", size = 5408, upload-time = "2025-09-30T18:47:02.979Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/91/a8/5533ea203687f41d9fe84b69fe08265e4485937575b63d6ed683f017968c/uvicorn_hmr-0.1.0.1-py3-none-any.whl", hash = "sha256:c4b5fbee4378972832e980834fc808b2979394faf43fe5ee6b21e3556f2c3b31", size = 6144, upload-time = "2025-09-23T15:54:16.634Z" },
+    { url = "https://files.pythonhosted.org/packages/34/ee/9a1ca722a4e1559773086a5c1593c553435a7d3aaf10065766dbc7505b9b/uvicorn_hmr-0.1.0.2-py3-none-any.whl", hash = "sha256:acb2acd7397c956753d693d4b14b2f7c37c8bf21873b8392bd69a7d4f9415289", size = 6170, upload-time = "2025-09-30T18:47:02.019Z" },
 ]
 
 [[package]]
