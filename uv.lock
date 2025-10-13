@@ -111,14 +111,14 @@ wheels = [
 
 [[package]]
 name = "hmr"
-version = "0.7.0.2"
+version = "0.7.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "watchfiles", marker = "sys_platform != 'emscripten'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0d/c6/37a3606bdd4a76abb6d6e256fee232de94418c5a4322501e57a9e4e37b79/hmr-0.7.0.2.tar.gz", hash = "sha256:e51d33918cf156b75aae833e399bc5b4f4af2c9e827ff966b83ccbf358d9d9e9", size = 20247, upload-time = "2025-09-25T12:06:27.645Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ca/2a/a426f49395e4692e389336b8a9e4be2f9e414822932a2dd702401af37248/hmr-0.7.1.tar.gz", hash = "sha256:5804ef41676a5514ba7e840a26e9267f7403825f24ef581eba70bd18a0ccbced", size = 20439, upload-time = "2025-10-09T08:18:47.943Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/30/cc/35adc5fdbb902e1fada932461b909435a657c761ff0cb50c785f8d93c613/hmr-0.7.0.2-py3-none-any.whl", hash = "sha256:cfde3242c56a00483ea59010f96a45cd5a4a75d6b271391bfe6a2aec25dc95d0", size = 25749, upload-time = "2025-09-25T12:06:26.745Z" },
+    { url = "https://files.pythonhosted.org/packages/10/63/ea14e29a63cb32414a98ca7beecbc905658d58e5c54eb646b2d25ac610a0/hmr-0.7.1-py3-none-any.whl", hash = "sha256:e1341a82fc7b5372260e489b2a43633567ef15d7dcac7aae502a00d67ee3ef59", size = 26013, upload-time = "2025-10-09T08:18:46.731Z" },
 ]
 
 [[package]]
@@ -186,11 +186,11 @@ wheels = [
 
 [[package]]
 name = "idna"
-version = "3.10"
+version = "3.11"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9", size = 190490, upload-time = "2024-09-15T18:07:39.745Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz", hash = "sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902", size = 194582, upload-time = "2025-10-12T14:55:20.501Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442, upload-time = "2024-09-15T18:07:37.964Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl", hash = "sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea", size = 71008, upload-time = "2025-10-12T14:55:18.883Z" },
 ]
 
 [[package]]
@@ -346,11 +346,11 @@ wheels = [
 
 [[package]]
 name = "promplate"
-version = "0.3.5.4"
+version = "0.3.5.5"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a8/a4/d185bb7bde98d1ddca1fa6babc2f71558275342ae771a422df22ebbfeec1/promplate-0.3.5.4.tar.gz", hash = "sha256:5fb88effc7c4cbe00800af3d2c9d820a99dcb0cf859f8ede683f585e991ceae2", size = 12550, upload-time = "2025-05-06T05:11:11.28Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c9/43/bb664a59752762929c628f4f498ec9bf0e9f1545760d864bc4c976f89e0c/promplate-0.3.5.5.tar.gz", hash = "sha256:8eb4b846e32967b994a4cc591f561f0713a3ae083d5a76d786161d0e58dcbf11", size = 12555, upload-time = "2025-10-10T09:09:29.902Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/7e/b11dca84bd28efbc78fe1ae267b5fd336b7873b140a7e43cbda0e33e4a14/promplate-0.3.5.4-py3-none-any.whl", hash = "sha256:adb2203b11f6779b934ef108e57f689599b0fc0ae9d3409220fc06434a531df1", size = 15800, upload-time = "2025-05-06T05:11:09.222Z" },
+    { url = "https://files.pythonhosted.org/packages/cb/ff/31f0dfb723028d3672a2e18e2a4499164d83cd8f915ce1d51b448f9285de/promplate-0.3.5.5-py3-none-any.whl", hash = "sha256:8143922c82e3578fd77317ecf21fec31481aeba04574c654fa918d3952372b6a", size = 15817, upload-time = "2025-10-10T09:09:28.443Z" },
 ]
 
 [[package]]
@@ -540,7 +540,7 @@ wheels = [
 
 [[package]]
 name = "uvicorn-hmr"
-version = "0.1.1"
+version = "0.1.1.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "hmr" },
@@ -548,7 +548,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6e/32/71165e5ab416ffa273bc90b238ec11d320b1a1f06c993946de16760ea31e/uvicorn_hmr-0.1.1-py3-none-any.whl", hash = "sha256:db58125ea6dc8ce8c9ee01ad2f8cc4da4ad57422bfbbcdec1f7cb4287975b572", size = 6659, upload-time = "2025-10-09T03:14:24.628Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/b0/440ccbe4f3796451eb8754c166513c2356ae6f54ad6d30547c233ec40e3a/uvicorn_hmr-0.1.1.5-py3-none-any.whl", hash = "sha256:c207a32efe1defe129677f158ced5ca6a873e5f83846257e18d1bc8460540a5c", size = 7229, upload-time = "2025-10-11T10:31:43.169Z" },
 ]
 
 [[package]]
